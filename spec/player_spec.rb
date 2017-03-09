@@ -6,7 +6,7 @@ require 'player'
     subject(:player2) { described_class.new("Ben") }
 
 
-    describe '#initalize' do
+    context '#initialize' do
       it 'Player 1 has a name' do
         expect(player1.name).to eq("Rob")
       end
